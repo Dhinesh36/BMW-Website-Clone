@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  Funnel Sans;
+    overflow-x: hidden;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}   
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;  
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+.logo img{
+    width: 70px;
+    height: 50px;
+}
+.navbar a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+    position: relative;
+    list-style: none;
+    border-radius: 3px;
+    padding: 0.5rem ;
+    transition:all 1s ease-in-out;
+   
+}
+.navbar a:hover{
+    background: #afadad;
+    color: #000;
+    opacity: 0.7;
+}
+.navbar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 30rem;
+    margin-right: 7rem;
+}
+.navbar2 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 23px;
+    position: relative;
+}
+.navbar2 a:hover{
+    background-color: transparent;
+    color: #2a15e3;
+}
+.line{
+    background-color: rgb(228, 228, 228);
+    /* width: 100%; */
+    height: 1px;
+    /* background: transparent; */
+}
+/* google map */
+.dealer{
+    position: relative;
+}
+.dealer .loca{
+    background-color: transparent;
+    position: relative;
+}
+.dealer .decomp{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.btn-box{
+    padding: 10px 7px;
+    background: transparent;
+    border-radius: 3px;
+    font-size: 15px;
+    border: 1px grey solid;
+    color: #7e7d7d;
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 20px;
+    font-weight: 700;
+}
+.decomp{
+    margin: 0;
+    height: 220px;
+    width: 32%;
+    background-color: #ffff;
+    input{
+        width: 92%;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 10px;
+        font-size: 18px;
+    }
+}
+.buttons{
+    display: flex;
+}
+label {
+    margin-left: -30px;
+    font-size: 18px;
+}
+/* google map end */
+.drive{
+    margin-top: -0.2rem;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    gap:2%;
+     
+}
+.drive .d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 9vh;
+    width: 10%;
+    cursor: pointer;
+     
+}
+.drive .d:hover{
+    background-color: #b6b6b62c;
+    border-top: 5px solid blue;
+}
+.drive i {
+    color: #000;
+    padding: 0 1rem;
+    transition: text-decoration 0.3s ease;
+}
+.drive a {
+    display: flex;
+    text-decoration: none; 
+}
+.drive span {
+    font-size: 12px;
+    color: rgb(2, 2, 2); 
+    font-weight: 500;
+} 
+.fhead{
+    width: 100%;
+    height: 80px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap:20px;
+}
+.your{
+    margin-left: 4%;
+    font-size: 12px;
+}
+.mode a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.mode a:hover{
+    color: #1C69D4;
+}
+
+/* footer */
+footer{
+    background-color: #f2f2f2;
+    padding: 4rem 1rem 4rem;
+    width: 100%;
+    height: 450px;
+
+  }
+footer h3{
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+.contact{
+    color: #000;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+    margin-left: 50px;
+  }
+  .contact li{
+    cursor: text;
+    transition: all 0.3s ease-in-out;
+    margin: 0.7rem 0;
+    list-style: none;
+    margin-right: 100px;
+    line-height: 25px;
+    margin-left: 20px;
+  }
+.contact li:hover{
+    color:black;
+    font-weight:550;
+    cursor: pointer;
+  }
+.main-text li{
+    color: lightslategray;
+    font-size: 0.8rem;
+}
+.main-text li:hover{
+    color: lightslategray;
+    transition: none;
+    font-weight: 100;
+    cursor: text;
+  }
+.icons{
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+}
+.icons i{
+    color: #000;
+    position: relative;
+    left: 45px;
+    top: 50px;
+}
+/* end page */
+.footerend{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    gap: 40%;
+    margin-left: 70px;
+}
+.footerend .agbmw p{
+    font-size: 18px;
+}
+.footerend .legal {
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+.footerend .legal a{ 
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+}
+.legal a:hover{
+    color:#1C69D4;
+}

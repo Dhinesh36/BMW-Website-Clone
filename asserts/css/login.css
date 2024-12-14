@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  Funnel Sans,sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.BMWID{
+    width: 115%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.BMWLOGIN{
+    width: 36%;
+    height: 100vh;
+}
+.content{
+    margin-left: 70px;
+    margin-top: 30px;
+    padding: 10%;
+    height: 78vh;
+    width: 100%;
+}
+h1{
+    font-size: 2.2rem;
+    font-weight: 60;
+    color: #000;
+    opacity: 0.6;
+}
+h2{
+    margin-top: 3px;
+    font-size: 1.1rem;
+    color: #2c3e50;
+    font-weight: 100;
+}
+.btn-box{
+    color: black;
+    font-weight: 500;
+}
+h3{
+    font-size: 15px; 
+    margin-top: 40px;
+    font-weight: 100;
+    color: #2c3e50;
+}
+input{
+    width: 73%;
+    padding: 15px  15px 15px; 
+}
+.btn-box3{
+    display: inline-block;
+    padding: 14px 9.3rem;
+    border-radius: 2px;
+    background: #1C69D4;
+    font-size: 18px;
+    color: #ffff;
+    text-decoration: none;
+    margin-top: 3%;
+    font-weight: bold;
+    opacity: 0.3;
+}
+p{
+    font-size: 13px;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+.hrline{
+    margin-top: 6rem;
+    width: 87%;
+    color: #2c3e50;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+.btn-box2{
+    color: #2c3e50;
+    /* margin-top: 20px; */
+    padding: 0px  10px 10px 0px;
+
+}
+.hrline2{
+    margin-top: 2rem;
+    width: 87%;
+    color: #2c3e50;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+.BMWID .logosig{
+    position: absolute;
+    top: 46px;
+    left: 42rem;
+}
+.images{
+    position: relative;
+}
+.images img{
+    height: 100vh;
+    width: 85%;
+}
+.images.logosig{
+    background-color: transparent;
+    position: relative;
+}
+.logosig img{
+    height: 75px;
+    width: 85px;
+}
